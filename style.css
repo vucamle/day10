@@ -1,0 +1,184 @@
+*{
+    margin: 0;padding: 0;
+}
+.header{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__tuan{
+    align-items: center;
+    display: flex;
+    margin-left: 1rem;
+
+}
+.header__tuan i{
+    padding: 1rem;
+   
+}
+.header__vu{
+    align-items: center;
+    display: flex;
+    margin-right: 2rem;
+
+}
+.header__vu h4{
+    padding: 1rem;
+}
+
+.souq{
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+h6{
+    color: orange;
+    margin-right: 0.3rem;
+    font-size: 2rem;
+}
+.souq__center{
+    margin-left: 10rem;
+}
+.center{
+    display: flex;
+    
+    margin-left: 10rem;
+    list-style: none;
+    
+}
+.center li{
+    color: orange ;
+    width: 7rem;
+    height: 2rem;
+}
+.center li :hover{
+    background-color: white;
+    color: black;
+}
+.homer{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    display: none;
+
+}
+.homer hr{
+    height: 0.1px;
+    background-color: orange ;
+}
+.hom__homer{
+    position: relative;
+}
+.hom__homer:hover .homer {
+    display: block;
+}
+.blog{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    display: none; 
+}
+.blog hr{
+    height: 0.1px;
+    background-color: orange ; 
+}
+.blo__blog{
+    position: relative;
+}
+.blo__blog:hover .blog {
+    display: block;
+}
+
+
+body{
+    background-color: whitesmoke;
+}
+.end{
+    display: flex;
+   margin-left: 7rem;
+
+}
+.end i{
+   
+    padding: 0rem 1rem;
+}
+hr{
+    height: 1rem;
+  background-color: orange ; }
+.one{
+    background-color: white;
+    display: flex;
+}
+.one img{
+    margin-right: 0.5rem;
+    height: 5rem;
+    width: 5rem;
+}
+cl {
+    color: grey;
+    
+}
+h4{
+   
+    margin-bottom: 0.8rem;
+}
+.two{
+    background-color: white;
+    display: flex;
+    margin-top: 1rem;
+}
+.two img{
+    margin-right: 0.5rem;
+    height: 5rem;
+    width: 5rem;
+}
+.image{
+    padding: 0.5rem;
+    height: 28rem;
+    width: 15rem;
+    background-color: antiquewhite;
+    margin-left: 60rem;
+}
+.three{
+    background-color: white;
+    display: flex;
+    margin-top: 1rem; 
+}
+.three img{
+    margin-right: 0.5rem;
+    height: 5rem;
+    width: 5rem;
+}
+.for{
+    display: flex;
+    margin-top: 3rem;
+}
+.image hr{
+    height: 0.1px;
+    margin-top: 0.5rem;
+}
+.pham button{
+    margin-top: 2rem;
+    background-color: black;
+    color: white;
+   
+}
+.fa-cart-shopping{
+   position: relative;
+    
+    
+
+}
+.ba{
+    position: absolute;
+    background-color: red;
+    color: white;
+    left: 30px;
+    border-radius: 50%;
+    font-size: 10px;
+    
+    
+}
+
+
